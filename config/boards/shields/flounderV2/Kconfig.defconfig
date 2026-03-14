@@ -1,14 +1,14 @@
-if SHIELD_FLOUNDER_LEFT
+if SHIELD_FLOUNDERV2_LEFT
  
 config ZMK_KEYBOARD_NAME
-    default "flounder"
+    default "flounderV2"
  
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
  
 endif
  
-if SHIELD_FLOUNDER_LEFT || SHIELD_FLOUNDER_RIGHT
+if SHIELD_FLOUNDERV2_LEFT || SHIELD_FLOUNDERV2_RIGHT
  
 config ZMK_SPLIT
     default y
